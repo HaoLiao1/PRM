@@ -1,8 +1,9 @@
 # Title
 
 PRM-IMM algorithm from our SIGMOD 2023 paper: Popularity Ratio Maximization: Surpassing Competitors through Influence Propagation.
-For some reasons, part of the basic graph algorithm code in this project cannot be open sourced. 
+Due to the requirements of the collaborators, part of the basic graph algorithm code in this project cannot be open sourced. 
 So we compiled an executable file and provided the corresponding python script to run this program. You can run this program on windows 10.
+
 
 ## Install
 
