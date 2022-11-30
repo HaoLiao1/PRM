@@ -7,8 +7,7 @@
 ///     Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on Discrete Algorithms. SIAM, 2014.
 /// [2] Tang, Youze, Xiaokui Xiao, and Yanchen Shi. "Influence maximization: Near-optimal time complexity meets practical efficiency." 
 ///     Proceedings of the 2014 ACM SIGMOD international conference on Management of data. ACM, 2014.
-/// [3] Youze Tang, Yanchen Shi, and Xiaokui Xiao. "Influence maximization in near-linear time: a martingale approach".
-///     Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data. ACM, 2015.
+/// [3] PRM
 
 
 #ifndef __rr_infl_h__
