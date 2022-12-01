@@ -5,10 +5,10 @@ PRM-IMM algorithm from our SIGMOD 2023 paper: Popularity Ratio Maximization: Sur
 ## Environment
 
 We implement PRM-IMM algorithms in Visual C++, compiled in Visual Studio 2019, and run our tests on a computer with 3.6GHz Intel(R) Core(TM) i9-9900K CPU (16 cores), 128G memory, and Windows 10 professional (64 bits).
-Linux is
+This code can also be compiled and run on Linux. But the omp setting is hard to use on linux. The OpenMP is an API specification for parallel programming. So Windows is recommended.
 
 ## Code Structure
-We have two folders for the PRM-OINS and NIOS setting. You need to put the code from these two files into two projects and compile.
+We have two folders for the PRM-OINS and NIOS setting. You need to put the code from these two folders into two projects and compile.
 ```
 ├── PRM_OINS
 │   ├── code
@@ -47,19 +47,22 @@ Input
 
 ### PRM_OINS folder
 The file "PRM_OINS.exe" is the main executable file for PRM-IMM(OINS) algorithm. It contains the PRM-IMM algorithm.
--h: print the help
--rr5 <eps=0.1> <ell=1.0>	<k = 50> <mode = 1> <round = 10> <dp0 = 400> <dn0 = 10> <a = 10> (PRM-IMM).
+
+	-h: print the help
+	-rr5 <eps=0.1> <ell=1.0> <k = 50> <mode = 1> <round = 10> <dp0 = 400> <dn0 = 10> <a = 50> (PRM-IMM).
 
 example: PRM_OINS.exe -rr3o 0.1 1.0 10 1 10 400 10 50 < dm_real.txt
 
 ### PRM_NIOS folder
 The file "PRM_NIOS.exe" is the main executable file for PRM-IMM(NIOS) algorithm. It contains the PRM-IMM algorithm.
--g : greedy algorithm for PRM NIOS and OINS setting
--tp simulate the process of PA-IC in NIOS setting and evaluate the result of different algorithm.
--rr5 <eps=0.1> <ell=1.0>	<k = 50> <mode = 1> <round = 10> <dp0 = 400> <dn0 = 10> <a = 10> (PRM-IMM).
 
-"example: PRM_NIOS.exe -rr5o 0.1 1 10 1 10 400 10 50 < dm_real.txt > out.txt \n"
+	-g : greedy algorithm for PRM NIOS and OINS setting.
+	-tp simulate the process of PA-IC in NIOS setting and evaluate the result of different algorithm.
+	-rr5 <eps=0.1> <ell=1.0> <k = 50> <mode = 1> <round = 10> <dp0 = 400> <dn0 = 10> <a = 50> (PRM-IMM).
 
+example: PRM_NIOS.exe -rr5o 0.1 1 10 1 10 400 10 50 < dm_real.txt > out.txt
 
+### MonteCarlo-Test.py
+The simulation of the process of PA-IC in OINS is easier than NIOS. So we write an python script to simulate.
 
 
