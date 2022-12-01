@@ -9,7 +9,7 @@ Linux is
 
 ## Code Structure
 We have two folders for the PRM-OINS and NIOS setting. You need to put the code from these two files into two projects and compile.
-
+```
 ├── PRM_OINS
 │   ├── code
 │   │   ├── mi_command_line.cpp // process command line parameter
@@ -31,7 +31,7 @@ We have two folders for the PRM-OINS and NIOS setting. You need to put the code 
 │   └── data
 │       └── dm_wc.txt	
 └── readme.md
-
+```
 ## Usage
 Input
 // read from file, there are also a example data in dm_real.txt.
