@@ -1,0 +1,1 @@
+double distance_function(int x);
