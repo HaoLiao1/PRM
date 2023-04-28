@@ -67,6 +67,6 @@ The simulation of the process of PA-IC in OINS is easier than NIOS. So we write 
 
 ### PRM__appendix_proof.pdf
 
-This file contains the proof for all the lemmas in the paper. And we will put full version on arxiv.
+This file contains the proof for all the lemmas in the paper. And we will put the full version on arxiv.
 
 
