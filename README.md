@@ -65,7 +65,7 @@ example: PRM_NIOS.exe -rr5o 0.1 1 10 1 10 400 10 50 < dm_real.txt > out.txt
 ### MonteCarlo-Test.py
 The simulation of the process of PA-IC in OINS is easier than NIOS. So we write an python script to simulate.
 
-### PRM__appendix_proof.pdf
+### PRM_appendix_proof.pdf
 
 This file contains the proof for all the lemmas in the paper. And we will put the full version on arxiv.
 
